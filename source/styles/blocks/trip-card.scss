@@ -1,0 +1,45 @@
+.trip-card {
+  padding: 16px 24px 16px 16px;
+
+  border: solid 1px transparent;
+  border-radius: 6px;
+  background-color: $white;
+
+  &:hover {
+    @include transition;
+
+    border: solid 1px $primary-300;
+  }
+}
+
+.trip-card__th {
+  font-size: 12px;
+  line-height: 16px;
+  color: $mid-gray-3;
+}
+
+.trip-card__td {
+  font-size: 14px;
+  line-height: 24px;
+
+  &--number {
+    color: $primary-600;
+    text-decoration: underline $primary-500;
+    text-underline-offset: 8px;
+  }
+
+  &--sum {
+    color: rgba($dark-grey-4, 0.9);
+  }
+
+  &--status {
+    padding: 4px 8px;
+
+    font-size: 12px;
+    line-height: 16px;
+    color: $mid-gray-1;
+
+    background-color: $mid-gray-2;
+    border-radius: 10px;
+  }
+}

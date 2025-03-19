@@ -1,0 +1,10 @@
+.trip-cards {
+  @include reset-list;
+  @include container;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

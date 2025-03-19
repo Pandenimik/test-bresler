@@ -1,0 +1,36 @@
+@mixin reset-link {
+  display: block;
+
+  text-decoration: none;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@mixin reset-button {
+  padding: 0;
+
+  font: inherit;
+  color: inherit;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+@mixin container {
+  margin: 0 auto;
+
+  max-width: $max-width-desktop;
+  padding-left: $padding-x-desktop;
+  padding-right: $padding-x-desktop;
+}
+
+@mixin transition {
+  transition: $transition-time;
+}
