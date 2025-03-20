@@ -17,9 +17,9 @@
   color: $dark-gray-2;
 
   border-bottom: solid 1px transparent;
-  cursor: pointer;
 
   &--current {
     border-bottom: solid 1px $primary-500;
+    cursor: default;
   }
 }

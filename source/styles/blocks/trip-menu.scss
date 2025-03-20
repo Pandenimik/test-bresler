@@ -22,4 +22,14 @@
 
   background-color: $primary-500;
   border-radius: 4px;
+
+  &:hover {
+    @include transition;
+    opacity: 0.7;
+  }
+
+  &:active {
+    @include transition;
+    opacity: 0.3;
+  }
 }

@@ -44,4 +44,14 @@
   align-items: center;
   width: 16px;
   height: 16px;
+
+  &:hover {
+    @include transition;
+    opacity: 0.7;
+  }
+
+  &:active {
+    @include transition;
+    opacity: 0.3;
+  }
 }
