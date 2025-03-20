@@ -59,9 +59,9 @@
       <div class="wrapper wrapper--filter">
         <form class="trip-filter">
           <label class="trip-filter__label" for="date-from">Период с:</label>
-          <input class="trip-filter__input" type="date" id="date-from" name="date-from">
+          <input class="trip-filter__input trip-filter__input--date-text" type="text" id="date-from" name="date-from" placeholder="Выбрать..." onfocus="this.type='date'" onblur="this.type='text'">
           <label class="trip-filter__label" for="date-to">по:</label>
-          <input class="trip-filter__input" type="date" id="date-to" name="date-to">
+          <input class="trip-filter__input trip-filter__input--date-text" type="date" id="date-to" name="date-to" placeholder="Выбрать..." onfocus="this.type='date'" onblur="this.type='text'">
           <div class="search-box">
             <input class="trip-filter__input trip-filter__input--search" type="search" id="search" placeholder="Поиск...">
             <button class="search-box__button" type="button">
