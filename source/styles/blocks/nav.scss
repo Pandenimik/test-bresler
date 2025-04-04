@@ -1,0 +1,25 @@
+.nav__list {
+  @include reset-list;
+
+  display: flex;
+  justify-content: end;
+  min-width: 422px;
+}
+
+.nav__link {
+  @include reset-link;
+
+  padding: 20px 12px;
+
+  font-weight: $font-weight-semi-bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: $dark-gray-2;
+
+  border-bottom: solid 1px transparent;
+
+  &--current {
+    border-bottom: solid 1px $primary-500;
+    cursor: default;
+  }
+}

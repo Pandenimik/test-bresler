@@ -1,0 +1,14 @@
+.spinner {
+  margin: 0 auto;
+  max-width: $max-width-desktop;
+  height: 2px;
+
+  background-color: $primary-200;
+}
+
+.spinner__inner {
+  width: 360px;
+  height: 2px;
+
+  background-color: $primary-500;
+}
